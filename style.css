@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    background-image: url(photo/pexels-polina-kovaleva-5717458.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #8E6D5A;
+}
+
+
+
+
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    letter-spacing: 3px;
+    font-size: 45px;
+    color: #ffffff;
+    text-shadow: -4px 5px 8px #a11b1b;
+}
+.main-section{
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 10px 70px;
+    padding: 20px;
+    box-shadow:  5px 5px 7px 0px #060606;
+    background-color: #975c31f5;
+    
+    
+}
+
+.icon-bin{
+    margin: 0px 20px;
+}
+
+.main-section  p{
+    font-size: large;
+}
+
+.form{
+    text-align: center;
+    
+
+
+}
+#text{
+    height: 40px;
+    width: 360px;
+    background-color: #e4d8d0d3;
+    
+    padding: 5px;
+    box-shadow:  5px 10px 7px 0px #060606;
+    text-align: center;
+    outline-style: none;
+    
+    
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(7, 7, 7);
+    opacity: 1; /* Firefox */
+  }
+
+.icon-plus{
+    padding: 15px;
+    background-color: #975c31f5;
+    box-shadow:  5px 10px 7px 0px #060606;
+    
+
+}
+
+.edit-remove{
+    text-decoration: line-through;
+}
+
+.heart{
+    color: rgb(216, 8, 8);
+}
+
+
+.icon-check{
+    color: rgb(18, 230, 53);
+}
+
+.icon-bin{
+    color: rgb(230, 226, 18);
+
+}
